@@ -13,11 +13,11 @@
         }
 
         body {
-            font-family: Arial, sans-serif;
+            
             background-color: var(--bg-gray);
             margin: 0;
             padding: 0;
-            color: var(--text-dark);
+            text-align: center;
         }
 
         /* Header Styles mimicking official NTA layout */
@@ -56,13 +56,10 @@
 
         /* Main Container */
         .main-container {
-            max-width: 900px;
-            margin: 30px auto;
-            background: #ffffff;
-            border: 1px solid #d1d5db;
-            border-radius: 4px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-            overflow: hidden;
+            width: 100%;
+            max-width: 100%;
+            margin: 0;
+            padding: 0;
         }
 
         .page-title {
@@ -78,16 +75,20 @@
 
         /* Result Image Section */
         .result-body {
-            padding: 20px;
+            width: 100%;
+                max-width: 100%;
+            padding: 0;
+            margin: 0;
             text-align: center;
             background-color: #ffffff;
         }
 
         .scorecard-image {
-            max-width: 100%;
+            width: 100vw;
             height: auto;
-            border: 1px solid #e2e8f0;
-            box-shadow: 0 0 10px rgba(0,0,0,0.05);
+            display: block;
+            border: none;
+            box-shadow: none;
         }
 
         /* Action Buttons */
